@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fit Fan Club</title>
+		<link rel="icon" href="images/logo.png" type="image/gif" size="5x5">
+		<link href="FFC-CSS.css" rel="stylesheet">
+		<link href="css/css/font-awesome.min.css" rel="stylesheet">
+		<script>
+			function popup(){
+				alert("Thank You for Joining Us");
+				alert("We will be in touch with you soon");
+			}
+		</script>
+	</head>
+	<body onload="#Title-section" onscroll="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">
+		<nav>
+			<ul>
+				<li><a href="#Title-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">Home</a></li>
+				<li><a href="#About-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">About Us</a></li>
+				<li><a href="#Schedule-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">Class Schedules</a></li>
+				<li><a href="#Trainers-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">Trainers</a></li>
+				<li><a href="#Gallery-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">Gallery</a></li>
+				<li><a href="#Contactus-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">Contact Us</a></li>
+			</ul>
+		</nav>
+		<div id="navbar-head-border-left"></div>
+		<div id="navbar-head-left">
+			<a href="#Title-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">
+				<label id="web-name"><span class="char">F</span><span class="char-mid">F</span><span class="char">C</span></label>
+			</a>
+		</div>
+		<div id="navbar-head-border-right"></div>
+			<button id="join-button-right" onclick="getElementById('navbar-head-right-content').style.display='block';getElementById('navbar-head-right-content-back').style.display='block';">
+				Join <span class="char-mid">Us</span>
+			</button>
+		<div id="manage-div"></div>
+		<div id="navbar-head-right-content-back">
+		</div>
+		<div id="navbar-head-right-content">
+			<span class="closebtn" onclick="this.parentElement.style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">&times;</span>
+			<br><br><button class="signup-btn" onclick="getElementById('signup-form-cover').style.display='block';">Sign Up</button><br><br>
+			<a href="time-pass.html"><i class="fa fa-facebook fa-2x facebook" title="Facebook Account"></i></a>&nbsp&nbsp
+			<a href="time-pass.html"><i class="fa fa-twitter fa-2x twitter" title="Twitter Account"></i></a>&nbsp&nbsp
+			<a href="time-pass.html"><i class="fa fa-youtube fa-2x youtube" title="Youtube Account"></i></a>
+		</div>
+		<div id="signup-form-cover">
+			<div id="signup-form">
+				<span class="formclosebtn" onclick="this.parentElement.style.display='none';getElementById('signup-form-cover').style.display='none';">&times;</span>
+				<form>
+					<h1>Sign Up</h1><hr><br>
+					<table id="form-table">
+						<tr>
+							<td><label class="signup-form-title">Full Name :</label></td>
+							<td><input type="text" class="input-field"></td>
+						</tr>
+						<tr>
+							<td><label class="signup-form-title">E-mail :</label></td>
+							<td><input type="email" class="input-field"></td>
+						</tr>
+						<tr>
+							<td><label class="signup-form-title">Mobile :</label></td>
+							<td><input type="tel" class="input-field"></td>
+						</tr>
+						<tr>
+							<td><label class="signup-form-title">Address :</label></td>
+							<td><textarea class="input-field"></textarea></td>
+						</tr>
+						<tr>
+							<th colspan="2"><button type="submit" class="form-btn" onclick="popup()">Sign Up</button></th>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		<section id="Title-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">
+			<div id="Title-div">
+				<label id="gym-name">
+					<center><span class="char">F</span><span class="char">i</span><span class="char">t</span> 
+					<span class="char-mid">F</span><span class="char-mid">a</span><span class="char-mid">n</span> 
+					<span class="char">C</span><span class="char">l</span><span class="char">u</span><span class="char">b</span></center>
+				</label>
+				<label id="slogan"><center>If you think you can, then prove it</center></label>
+			</div>
+		</section>
+		<section id="About-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">
+			<fieldset>
+				<legend>About Us</legend>
+				<p>
+					<img src="images/wp10.jpg">
+					<br><br><br><br>FFC or Fit Fan Club is for not only to remain fit but also involves team work. It's not just a GYM, it is a club of several members who are spreading the fitness to the world.
+					Here we also make the people aware about the fitness and why do we need it.
+				</p>
+			</fieldset>
+		</section>
+		<section id="Schedule-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">
+			<table id="boys-schedule">
+				<caption>Schedule for Boys</caption>
+				<tr>
+					<th>Days</th>
+					<th>Timings</th>
+				</tr>
+				<tr>
+					<td>Monday</td>
+					<td>Half Day <br>(Same as below Timings till 12 p.m.)</td>
+				</tr>
+				<tr>
+					<td>Tuesday - Friday</td>
+					<td>
+						6 a.m. - 8 a.m.<br>8 a.m. - 12 a.m. (Club Members Only)<br>12 p.m. - 1 p.m. (closed)<br>
+						1 p.m. - 2 p.m.<br>2 p.m. - 3 p.m.<br>3 p.m. - 6 p.m. (Club Members Only)<br>7 p.m. - 9 p.m.<br>
+					</td>
+				</tr>
+				<tr>
+					<td>Saturday - Sunday</td>
+					<td>
+						6 a.m. - 8 a.m.<br>8 8 a.m. - 10 a.m.<br>10a.m. - 12 a.m.<br>12 p.m. - 1 p.m.<br>
+						1 p.m. - 2 p.m.<br>2 p.m. - 3 p.m.<br>3 p.m. - 6 p.m.<br>7 p.m. - 9 p.m.<br>
+					</td>
+				</tr>
+			</table>
+			<table id="girls-schedule">
+				<caption>Schedule for Girls</caption>
+				<tr>
+					<th>Days</th>
+					<th>Timings</th>
+				</tr>
+				<tr>
+					<td>Monday</td>
+					<td>Half Day <br>(Same as below Timings till 12 p.m.)</td>
+				</tr>
+				<tr>
+					<td>Tuesday - Friday</td>
+					<td>
+						6 a.m. - 8 a.m.<br>8 a.m. - 12 a.m. (Club Members Only)<br>12 p.m. - 1 p.m. (closed)<br>
+						1 p.m. - 2 p.m.<br>2 p.m. - 3 p.m.<br>3 p.m. - 6 p.m. (Club Members Only)<br>7 p.m. - 9 p.m.<br>
+					</td>
+				</tr>
+				<tr>
+					<td>Saturday - Sunday</td>
+					<td>
+						6 a.m. - 8 a.m.<br>8 8 a.m. - 10 a.m.<br>10a.m. - 12 a.m.<br>12 p.m. - 1 p.m.<br>
+						1 p.m. - 2 p.m.<br>2 p.m. - 3 p.m.<br>3 p.m. - 6 p.m.<br>7 p.m. - 9 p.m.<br>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<section id="Trainers-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">
+			<fieldset id="for-boys">
+				<legend>Trainers for Boys</legend>
+				<p>
+					<img src="images/wp13.jpg">
+					<h2>Deepak Kumar Sahu</h2>Well Known trainer for Body Building, Diet, Yoga and Nutrition
+				</p><br><br><br><br><br>
+				<p>
+					<img src="images/wp8.jpg">
+					<h2>Vinay Kumar Sahu</h2>Well Known trainer for Body Building and Diet
+				</p>
+			</fieldset>
+			<fieldset id="for-girls">
+				<legend>Trainers for Girls</legend>
+				<p>
+					<img src="images/gwp8.jpg">
+					<h2>Megha Sharma</h2>Well Known trainer for Full Body Workout and Diet
+				</p><br><br><br><br><br>
+				<p>
+					<img src="images/gwp1.jpg">
+					<h2>Minakshi Singh</h2>Well Known trainer for Full Body Workout and Yoga
+				</p>
+			</fieldset>
+		</section>
+		<section id="Gallery-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">
+			<div id="gal-div-main">
+				<img id="main-img" src="images/eq1.jpg" height="450px" width="700px">
+			</div>
+			<div id="gal-div">
+				<table>
+					<tr>
+						<td><center></center></td>
+					</tr>
+					<tr>
+						<td><img src="images/eq1.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/eq1.jpg';"></td>
+						<td><img src="images/eq2.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/eq2.jpg';"></td>
+						<td><img src="images/eq3.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/eq3.jpg';"></td>
+						<td><img src="images/eq4.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/eq4.jpg';"></td>
+						<td><img src="images/gym1.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/gym1.jpg';"></td>
+						<td><img src="images/gym2.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/gym2.jpg';"></td>
+						<td><img src="images/gym3.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/gym3.jpg';"></td>
+						<td><img src="images/gym4.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/gym4.jpg';"></td>
+						<td><img src="images/wp12.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/wp12.jpg';"></td>
+						<td><img src="images/wp14.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/wp14.jpg';"></td>
+						<td><img src="images/wp3.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/wp3.jpg';"></td>
+						<td><img src="images/wp6.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/wp6.jpg';"></td>
+						<td><img src="images/gwp5.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/gwp5.jpg';"></td>
+						<td><img src="images/gwp6.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/gwp6.jpg';"></td>
+						<td><img src="images/gwp7.jpg" height="100px" width="100px" onclick="getElementById('main-img').src='images/gwp7.jpg';"></td>
+					</tr>
+				</table>
+			</div>
+		</section>
+		<section id="Contactus-section" onclick="getElementById('navbar-head-right-content').style.display='none';getElementById('navbar-head-right-content-back').style.display='none';">
+			<fieldset>
+				<legend>Contact Us</legend>
+				<center>
+				<form>
+					<table id="contact-table">
+						<tr>
+							<td><label class="signup-form-title">Full Name :</label></td>
+							<td><input type="text" class="input-field"></td>
+						</tr>
+						<tr>
+							<td><label class="signup-form-title">E-mail &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label></td>
+							<td><input type="email" class="input-field"></td>
+						</tr>
+						<tr>
+							<td><label class="signup-form-title">Mobile &nbsp&nbsp&nbsp&nbsp&nbsp:</label></td>
+							<td><input type="tel" class="input-field"></td>
+						</tr>
+						<tr>
+							<td><label class="signup-form-title">Message &nbsp&nbsp&nbsp:</label></td>
+							<td><textarea class="input-field"></textarea></td>
+						</tr>
+						<tr>
+							<th colspan="2"><button type="submit" class="form-btn" onclick="popup()">Submit</button></th>
+						</tr>
+					</table>
+				</form>
+				</center>
+			</fieldset>
+		</section>
+	</body>
+</html>
